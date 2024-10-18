@@ -1,3 +1,4 @@
 import pandas as pd
-path = "path"
-df = pd.read_csv("path")
+
+df = pd.read_csv(r"csv_files\airquality.csv")
+print(df.head())
